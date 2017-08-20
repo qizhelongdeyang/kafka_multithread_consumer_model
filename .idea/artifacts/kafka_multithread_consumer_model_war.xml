@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="kafka_multithread_consumer_model:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="kafka_multithread_consumer_model.war">
+      <element id="artifact" artifact-name="kafka_multithread_consumer_model:war exploded" />
+    </root>
+  </artifact>
+</component>

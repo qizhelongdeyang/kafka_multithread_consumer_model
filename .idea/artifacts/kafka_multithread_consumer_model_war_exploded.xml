@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kafka_multithread_consumer_model:war exploded">
+    <output-path>$PROJECT_DIR$/target/kafka_multithread_consumer_model</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kafka_multithread_consumer_model" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.11.0.0" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.3.0" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/kafka_multithread_consumer_model/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="kafka_multithread_consumer_model/web/Web" />
+    </root>
+  </artifact>
+</component>
